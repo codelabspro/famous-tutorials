@@ -1,6 +1,14 @@
 # famous-tutorials
 
-# famousone : Getting started example
+Steps
+npm install famous/engine#develop --save
+npm cache clean
+npm install
+famous dev
 
-# famoustwo : Mixed Mode
-# npm install famous/engine#develop --save
+famousone : Getting started example
+
+famoustwo : Mixed Mode
+
+famousthree : Setup a scene 
+
