@@ -7,7 +7,6 @@ var CustomNode = require('./CustomNode');
 var MovingNode = require('./MovingNode');
 var KeyCodes = require('famous/utilities/KeyCodes');
 var Position = require('famous/components/Position');
-
 // Boilerplate code to make your life easier
 FamousEngine.init();
 
@@ -15,6 +14,8 @@ var scene = FamousEngine.createScene('body');
 var rootNode = scene.addChild();
 var farBuildings = rootNode.addChild(new CustomNode('url(images/parallax_far_buildings.png)', '#B3E5FC', 0, 0, 1800, 500));
 var plane = rootNode.addChild(new MovingNode('url(images/plane_100x100.png)', '#B3E5FC', 200, 200, 100, 100));
+
+
 
 window.addEventListener('keydown', function(e) {
   console.log('keydown occured');
